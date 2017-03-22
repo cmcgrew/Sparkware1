@@ -20,7 +20,7 @@ namespace Sparkware1
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.discover);
 
-            // Create your application here
+            // Create your application here test test
         }
     }
 }
