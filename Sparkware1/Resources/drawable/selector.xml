@@ -1,0 +1,20 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <shape>
+      <solid android:color="#323298" />
+    </shape>
+  </item>
+
+  <item android:state_focused="true">
+    <shape>
+      <solid android:color="#0000B2" />
+    </shape>
+  </item>
+
+  <!-- Always specify default last because it will activate which ever is true first and ignore the rest -->
+  <item>
+    <shape>
+      <solid android:color="#00007F" />
+    </shape>
+  </item>
+</selector>

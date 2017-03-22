@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="75dp"
+    android:weightSum="100"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linLayoutHome"
+        android:background="@drawable/selector"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/world"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/ivHome"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:layout_weight="70" />
+        <TextView
+            android:text="Home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvHome"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linLayoutDiscover"
+        android:background="@drawable/selector"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/world"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/ivDiscover"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:layout_weight="70" />
+        <TextView
+            android:text="Discover"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvDiscover"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linLayoutSubmitIdea"
+        android:background="@drawable/selector"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/world"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/ivSubmitIdea"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:layout_weight="70" />
+        <TextView
+            android:text="Submit Idea"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvSubmitIdea"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="30" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linLayoutMyAccount"
+        android:background="@drawable/selector"
+        android:padding="0dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/world"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/ivMyAccount"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:layout_weight="70" />
+        <TextView
+            android:text="My Account"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvMyAccount"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:layout_weight="30" />
+    </LinearLayout>
+</LinearLayout>
