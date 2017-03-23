@@ -20,7 +20,7 @@ namespace Sparkware1
         }
 
         public string Title { get; set; }
-        public string Discrption { get; set; }
+        public string Discription { get; set; }
         public string Picture { get; set; }
         public int NumberOfLikes { get; set; }
         public List<string> Comments { get; set; }
