@@ -38,12 +38,19 @@ namespace Sparkware1
             ll.Orientation = Orientation.Horizontal;
             ll.SetBackgroundResource(Resource.Drawable.customshape);
 
+            ll.Click += Ll_Click;
+
 
 
             parent.AddView(ll);
 
 
             // Create your application here test test
+        }
+
+        private void Ll_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
