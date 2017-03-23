@@ -1921,9 +1921,6 @@ namespace Sparkware1
 			// aapt resource value: 0x7f0a0071
 			public const int right_side = 2131361905;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int sampleTextView = 2131361926;
-			
 			// aapt resource value: 0x7f0a0015
 			public const int screen = 2131361813;
 			
@@ -2269,10 +2266,7 @@ namespace Sparkware1
 			public const int support_simple_spinner_dropdown_item = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int Tab = 2130903091;
-			
-			// aapt resource value: 0x7f030034
-			public const int userpage = 2130903092;
+			public const int userpage = 2130903091;
 			
 			static Layout()
 			{
