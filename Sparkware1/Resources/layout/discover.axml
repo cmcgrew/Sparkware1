@@ -4,11 +4,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:text="DISCOVER PAGE"
+    android:minHeight="25px"
+    android:id="@+id/discoverParent">
+  <!--<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/linearLayout1"
+      android:layout_weight="20"
+      android:weightSum="100"
+      android:background="@drawable/customshape">
+    <ImageView
+        android:src="@drawable/iphones"
+        android:layout_width="250dp"
+        android:layout_weight="40"
+        android:layout_height="100dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:textSize="50sp" />
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2">
+      <TextView
+          android:text="Title"
+          android:textSize="30sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView1"
+          android:textColor="@color/material_grey_900"
+          android:layout_marginTop="15dp" />
+      <TextView
+          android:text="Discription"
+          android:textSize="18sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2"
+          android:textColor="@color/material_grey_800" />
+    </LinearLayout>
+  </LinearLayout>-->
 </LinearLayout>
